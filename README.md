@@ -1,4 +1,4 @@
-# Countdown-to-Christmas
+# Countdown to Christmas
 A 'Countdown to Christmas' chrome extension 
 
 #Installation
