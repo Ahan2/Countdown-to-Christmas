@@ -1,8 +1,8 @@
-# Countdown-till-Christmas
-A 'Countdown till Christmas' chrome extension 
+# Countdown-to-Christmas
+A 'Countdown to Christmas' chrome extension 
 
 #Installation
-Download it from the chrome web store: https://chrome.google.com/webstore/detail/countdown-to-christmas/pcjijlkfdciegfhpfeenkgapgmhklffg?utm_source=gmail
+Download it from the chrome web store: https://chrome.google.com/webstore/detail/countdown-to-christmas/pcjijlkfdciegfhpfeenkgapgmhklffg
 
 ***OR***
 
