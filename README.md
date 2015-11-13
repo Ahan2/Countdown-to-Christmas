@@ -2,6 +2,10 @@
 A 'Countdown till Christmas' chrome extension 
 
 #Installation
+Download it from the chrome web store: https://chrome.google.com/webstore/detail/countdown-to-christmas/pcjijlkfdciegfhpfeenkgapgmhklffg?utm_source=gmail
+
+***OR***
+
 1. Open the zip
 2. Go to chrome://extensions/ (on chrome)
 3. Ensure the 'developer mode' check box is ticked (top right corner).
