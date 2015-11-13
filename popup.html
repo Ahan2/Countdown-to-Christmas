@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <style>
+    body,
+.santa,
+.hand.left::before{background:#FFF1C8}
+
+.santa{position:relative;width:334px;height:360px;margin:100px auto 0}
+
+/*HAT*/
+.hat{width:101px;height:101px;border-radius:0 0 100px 0;background:#E64604;position:absolute;top:16px;right:39px}
+.hat::before,
+.hat::after{content:'';background:#fff;width:30px;height:16px;border-radius:15px 0 15px 0;position:absolute;top:-15px;right:-30px}
+.hat::after{top:0;border-radius:0 15px 0 15px}
+
+/*HEAD*/
+.head{width:202px;height:201px;border-radius:100%;right:40px;top:17px;position:absolute;z-index:1;
+background:linear-gradient(to bottom, #F0E5D8 0%, #F0E5D8 50%, #fff 50%, #fff 100%);
+background:-webkit-linear-gradient(top, #F0E5D8 0%, #F0E5D8 50%, #fff 50%, #fff 100%);}
+
+.face{width:136px;height:68px;background:blue;border-radius:68px 68px 0 0;position:absolute;left:33px;top:32px;z-index:-1;overflow:hidden;
+background:linear-gradient(to right, #F1C1A0 0%, #F1C1A0 50%, #F4D1B9 50%, #F4D1B9 100%);
+background:-webkit-linear-gradient(left, #F1C1A0 0%, #F1C1A0 50%, #F4D1B9 50%, #F4D1B9 100%);}
+.face::before,
+.face::after{content:'';display:block;width:66px;height:33px;background:#F49598;border-radius:33px 33px 0 0;position:absolute;top:35px;left:-31px;}
+.face::after{left:auto;right:-31px}
+
+.eye,
+.nose{width:14px;height:14px;background:#0972C9;border-radius:100%;position:absolute;left:71px;top:74px;z-index:1}
+.eye::before{content:'';display:block;width:30px;height:15px;background:#fff;border-radius:15px 0;position:absolute;left:-13px;top:-22px;
+transition:all 400ms;-webkit-transition:all 400ms}
+.eye.right{left:auto;right:70px}
+.eye.right::before{border-radius:0 15px;left:-3px}
+
+.nose{background:#F49598;margin-top:93px;margin-left:94px;position:static;}
+.nose::before,
+.nose::after{content:'';width:68px;height:34px;background:#F0E5D8;border-radius:34px 0;position:absolute;z-index:-1;margin-left:-61px;margin-top:7px;
+transition:all 400ms;-webkit-transition:all 400ms}
+.nose::after{border-radius:0 34px;margin-left:7px}
+
+
+/*BODY*/
+.body{background:#E64604;width:202px;height:201px;border-radius:45% 45% 43% 42% / 42% 42% 37% 37%;
+bottom:17px;right:40px;position:absolute;}
+.body::before{content:'';width:45px;height:17px;background:#F0E5D8;position:absolute;top:73px;left:78px;}
+
+.hand{position:absolute;background:inherit;height:110px;width:110px;border-radius:0 110px 0 0;right:-40px;top:-3px;}
+.hand::after{content:'';position:absolute;width:40px;height:36px;background:#F4D1B9;border-radius:0 0 20px 20px;
+top:110px;left:70px;box-shadow:inset 0 16px 0 #fff}
+
+.hand.left{right:auto;left:-51px;top:-35px;
+transform:rotate(135deg);
+-webkit-transform:rotate(135deg);
+-ms-transform:rotate(135deg);
+animation:shakeHand 4s infinite;
+-webkit-animation:shakeHand 4s infinite;}
+.hand.left::before{content:'';position:absolute;width:85px;height:85px;border-radius:0 110px 0 0;top:61px;left:1.5px;
+transform:rotate(33deg);
+-webkit-transform:rotate(33deg);
+-ms-transform:rotate(33deg);}
+
+.belt{width:100%;height:33px;position:absolute;top:90px;
+background:linear-gradient(to right, #391100 0%, #391100 15.5%, transparent 15.5%, transparent 23.5%, #391100 23.5%, #391100 61.5%, #402E25 61.5%, #402E25 76.5%, transparent 76.5%, transparent 84%, #402E25 84%);
+background:-webkit-linear-gradient(left, #391100 0%, #391100 15.5%, transparent 15.5%, transparent 23.5%, #391100 23.5%, #391100 61.5%, #402E25 61.5%, #402E25 76.5%, transparent 76.5%, transparent 84%, #402E25 84%);}
+.belt::before{content:'-';display:block;position:absolute;height:17px;width:29px;border:8px solid #FEDE25;left:78px;z-index:1;
+color:#FEDE25;font:bold 40px/10px Arial, Helvetica, sans-serif;text-indent:18px;text-align:right;}
+.belt::after{content:'';display:block;position:absolute;height:33px;width:33px;left:106px;border-radius:100%;background:#391100;}
+
+.shoes{width:84px;height:17px;border-radius:17px 17px 0 0;background:#391100;position:absolute;bottom:-17px;left:59px}
+.shoes::before{content:'';width:45px;height:38px;background:#FEF0C8;position:absolute;top:-21px;left:19px}
+.shoes::after{content:'';width:45px;height:4px;border-radius:100%;background:#E64604;position:absolute;left:19px;top:-23px}
+
+/*Hand Animation*/
+@-webkit-keyframes shakeHand{
+0%  {-webkit-transform:rotate(135deg)}
+50% {-webkit-transform:rotate(155deg)}
+100%{-webkit-transform:rotate(135deg)}
+}
+@keyframes shakeHand{
+0%  {transform:rotate(135deg);-ms-transform:rotate(135deg)}
+50% {transform:rotate(155deg);-ms-transform:rotate(155deg)}
+100%{transform:rotate(135deg);-ms-transform:rotate(135deg)}
+}
+
+/*HOVER STATES*/
+.santa:hover .nose::after{margin-top:3px;
+transform:rotate(-8deg);
+-webkit-transform:rotate(-8deg);
+-ms-transform:rotate(-8deg);
+}
+.santa:hover .nose::before{margin-top:3px;
+transform:rotate(8deg);
+-webkit-transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+}
+
+.santa:hover .eye::before{
+transform:rotate(-15deg);
+-webkit-transform:rotate(-15deg);
+-ms-transform:rotate(-15deg);
+}
+.santa:hover .eye.right::before{
+transform:rotate(15deg);
+-webkit-transform:rotate(15deg);
+-ms-transform:rotate(15deg);
+}
+    </style>
+  </head>
+  <body>
+    <!--<iframe src="http://free.timeanddate.com/countdown/i4xoegpg/n176/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cac888/cpc777/pct/tcfff/fn3/fs100/szw1000/szh421/tatDays%20till%20Christmas%3A/tac777/tptDays%20till%20Christmas%3A/tpc777/iso2015-11-14T00:00:00" allowTransparency="true" frameborder="0" width="593" height="141"></iframe>-->
+    <iframe src="http://free.timeanddate.com/countdown/i4xoegpg/n176/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cac888/cpc777/pct/tcfff/fn3/fs100/szw800/szh337/tatDays%20till%20Christmas%3A/tac777/tptDays%20till%20Christmas%3A/tpc777/iso2015-12-25T00:00:00" allowTransparency="true" frameborder="0" width="476" height="115"></iframe>
+
+    <div class="santa">
+      <div class="hat"></div>
+      <div class="head">
+        <div class="face"></div>
+        <div class="eye"></div>
+        <div class="eye right"></div>
+        <div class="nose"></div>
+      </div>
+      <div class="body">
+        <div class="hand left"></div>
+        <div class="hand"></div>
+        <div class="belt"></div>
+        <div class="shoes"></div>
+      </div>
+    </div>
+  </body>
+</html>
