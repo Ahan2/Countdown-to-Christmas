@@ -8,3 +8,5 @@ A 'Countdown till Christmas' chrome extension
 4. Click “Load unpacked extension…” and select the extension's directory. 
 
 BOOM.
+
+![xmas](http://ahansabharwal.com/xmas2.png)
