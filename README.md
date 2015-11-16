@@ -7,11 +7,17 @@ Download it from the chrome web store: https://chrome.google.com/webstore/detail
 Safari: http://ahansabharwal.com/countdownToXMAS.safarixt
 
 ***OR***
+
 <i><u>for chrome</u></i>
+
 1. Open the zip
 2. Go to chrome://extensions/ (on chrome)
 3. Ensure the 'developer mode' check box is ticked (top right corner).
 4. Click “Load unpacked extension…” and select the extension's directory. 
+
+<i><u>for safari</u></i>
+
+Just click on the download!
 
 BOOM.
 
