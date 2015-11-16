@@ -4,7 +4,7 @@ A 'Countdown to Christmas' chrome/safari extension
 #Installation
 Download it from the chrome web store: https://chrome.google.com/webstore/detail/countdown-to-christmas/pcjijlkfdciegfhpfeenkgapgmhklffg
 
-Safari: http://ahansabharwal.com/countdownToXMAS.safarixt
+Safari: http://ahansabharwal.com/countdownToXMAS.safariextz
 
 ***OR***
 
