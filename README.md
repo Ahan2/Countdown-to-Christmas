@@ -21,4 +21,4 @@ Just click on the download!
 
 BOOM.
 
-![xmas](http://ahansabharwal.com/xmas2.png)
+![xmas](http://ahansabharwal.com/countdownToXMAS/xmas2.png)
