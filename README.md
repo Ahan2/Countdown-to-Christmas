@@ -7,7 +7,7 @@ Download it from the chrome web store: https://chrome.google.com/webstore/detail
 
 ***OR***
 
-      ***I don't recommend this.***
+***I don't recommend this.***
       
 <u><i>For chrome</i></u>
 
