@@ -4,10 +4,9 @@ A 'Countdown to Christmas' chrome/safari extension
 #Installation
 Download it from the chrome web store: https://chrome.google.com/webstore/detail/countdown-to-christmas/pcjijlkfdciegfhpfeenkgapgmhklffg
 
-Safari: http://ahansabharwal.com/countdownToXMAS.safariextz
 
 ***OR***
-
+      ****I don't recommend this.****
 <u><i>For chrome</i></u>
 
 1. Open the zip
@@ -15,9 +14,6 @@ Safari: http://ahansabharwal.com/countdownToXMAS.safariextz
 3. Ensure the 'developer mode' check box is ticked (top right corner).
 4. Click “Load unpacked extension…” and select the extension's directory. 
 
-<u><i>For safari</i></u>
-
-Just click on the download!
 
 BOOM.
 
