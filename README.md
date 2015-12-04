@@ -19,4 +19,4 @@ Download it from the chrome web store: https://chrome.google.com/webstore/detail
 
 BOOM.
 
-![xmas](http://ahansabharwal.com/countdownToXMAS/xmas2.png)
+![xmas](https://lh3.googleusercontent.com/jgx48UP2U0oFluDFHbuHTWrvNLT_Md50Fj8FuyQo7OGqggWa1hpxV0Z0uTu5LwVSqNIiYQs7=s1280-h800-e365-rw)
