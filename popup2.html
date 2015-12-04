@@ -2,10 +2,61 @@
 <html>
   <head>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,200,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
     <style>
+    /*SNOW*/
+    body { background-color:#333; }
+#snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 20s linear infinite;
+	-moz-animation: snow 20s linear infinite;
+	-ms-animation: snow 20s linear infinite;
+	animation: snow 20s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+/*END SNOW*/
+    body{
+      min-width:600px;
+      min-width:600px;
+    }
+    @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,500,700,300);
+.container{text-align:center; color:#ccc; margin:10vh auto; width:95%; max-width:750px;}
+.container h1{ color:#fff; font-size:46px; text-transform:uppercase; font-weight:500;  opacity:.75;}
+.container div{font-size:28px; display:inline-block;}
+.days-div, .hours-div,
+.minutes-div, .seconds-div{display:inline-block; margin:10px 0px; border:solid 1px coral; border-radius:2px; padding:5px 10px; background:#333; mix-blend-mode: screen;}
+.days, .hours{color:coral;}
+.minutes, .seconds{color:tomato;}
     body,
 .santa,
-.hand.left::before{background:#64B5F6}
+.hand.left::before{background:#4CAF50}
 
 .santa{position:relative;width:334px;height:360px;margin:100px auto 0}
 
@@ -65,12 +116,12 @@ transform:rotate(33deg);
 background:linear-gradient(to right, #391100 0%, #391100 15.5%, transparent 15.5%, transparent 23.5%, #391100 23.5%, #391100 61.5%, #402E25 61.5%, #402E25 76.5%, transparent 76.5%, transparent 84%, #402E25 84%);
 background:-webkit-linear-gradient(left, #391100 0%, #391100 15.5%, transparent 15.5%, transparent 23.5%, #391100 23.5%, #391100 61.5%, #402E25 61.5%, #402E25 76.5%, transparent 76.5%, transparent 84%, #402E25 84%);}
 .belt::before{content:'-';display:block;position:absolute;height:17px;width:29px;border:8px solid #FEDE25;left:78px;z-index:1;
-color:#FEDE25;font:bold 40px/10px Arial, Helvetica, sans-serif;text-indent:18px;text-align:right;}
+color:#FEDE25;font-family:Raleway;font-weight: 200;text-indent:18px;text-align:right;}
 .belt::after{content:'';display:block;position:absolute;height:33px;width:33px;left:106px;border-radius:100%;background:#391100;}
 
 .shoes{width:84px;height:17px;border-radius:17px 17px 0 0;background:#391100;position:absolute;bottom:-17px;left:59px}
-.shoes::before{content:'';width:45px;height:38px;background:#FEF0C8;position:absolute;top:-21px;left:19px}
-.shoes::after{content:'';width:45px;height:4px;border-radius:100%;background:#E64604;position:absolute;left:19px;top:-23px}
+.shoes::before{content:'';width:45px;height:38px;background:#4CAF50;position:absolute;top:-21px;left:19px}
+.shoes::after{content:'';width:45px;height:4px;border-radius:100%;background:#e84500;position:absolute;left:19px;top:-23px}
 
 /*Hand Animation*/
 @-webkit-keyframes shakeHand{
@@ -109,12 +160,27 @@ transform:rotate(15deg);
     </style>
   </head>
   <body>
-    <!--<iframe src="http://free.timeanddate.com/countdown/i4xoegpg/n176/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cac888/cpc777/pct/tcfff/fn3/fs100/szw1000/szh421/tatDays%20till%20Christmas%3A/tac777/tptDays%20till%20Christmas%3A/tpc777/iso2015-11-14T00:00:00" allowTransparency="true" frameborder="0" width="593" height="141"></iframe>-->
-      <iframe src="http://free.timeanddate.com/countdown/i4xoegpg/n176/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw800/szh337/tatDays%20till%20Christmas%3A/tacfff/tptDays%20till%20Christmas%3A/tpcfff/iso2015-12-25T00:00:00" allowTransparency="true" frameborder="0" width="476" height="115"></iframe>
+    <div id="snow">
+    </div>
+<main class="container">
+  <h1 style="font-family:Lato;font-weight:300; width:100%; margin-top:-50px;">Days till Xmas</h1>
+  <div id="clockdiv" style="font-family:Lato;font-weight:400; width:100%; margin-top:-20px;">
+    <div class="days-div"><span class="days"></span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div class="hours-div"><span class="hours"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div class="minutes-div"><span class="minutes"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div class="seconds-div"><span class="seconds"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+</main>
 
-
-
-    <div class="santa" style="margin-top:20px;">
+    <div class="santa" style="margin-top:-50px;">
       <div class="hat"></div>
       <div class="head">
         <div class="face"></div>
@@ -129,6 +195,7 @@ transform:rotate(15deg);
         <div class="shoes"></div>
       </div>
     </div>
+    <script src ="javascript.js"></script>
       <!--<h3><a href="#" style="color:#318063; text-decoration:none; float:right; font-weight:200;">by @AhanSabharwal</a></h3>-->
   </body>
 </html>
